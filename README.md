@@ -45,7 +45,7 @@ for(i = 0; i <3; i++){
 
     // MailApp.sendEmail(address, subj, body);
 MailApp.sendEmail({
-    to:  "my.vo@jaxport.com" ,
+    to:  "my_email.com" ,
     subject: "My's Super Camera Report",
     body :  msg,
 })
